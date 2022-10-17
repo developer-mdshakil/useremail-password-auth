@@ -13,10 +13,10 @@ const router = createBrowserRouter([
         path: '/', element: <ReactBootStrapForm></ReactBootStrapForm>
       },
       {
-        path: '/register now', element: <ReactBootStrapForm></ReactBootStrapForm>
+        path: '/register', element: <ReactBootStrapForm></ReactBootStrapForm>
       },
       {
-        path: '/login now', element: <BootStrapLogin></BootStrapLogin>
+        path: '/login', element: <BootStrapLogin></BootStrapLogin>
       }
     ]
   }
